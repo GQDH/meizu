@@ -1,0 +1,120 @@
+body {
+  background: white;
+  position: relative;
+  width: 100%;
+}
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+}
+.container .mz-wrapper {
+  margin: 0 auto;
+  width: 1240px;
+  height: 100px;
+}
+.container .mz-wrapper .mz-logo {
+  float: left;
+  margin: 40px 0;
+}
+.container .mz-wrapper .mz-logo .meizu-header-logo-img {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.container .mz-wrapper .mz-nav {
+  float: left;
+  margin: 45px 0;
+  margin-left: 100px;
+}
+.container .mz-wrapper .mz-nav li {
+  float: left;
+  font-size: 14px;
+  margin-right: 35px;
+}
+.container .mz-wrapper .mz-nav li a {
+  display: inline-block;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.container .mz-wrapper .mz-nav li a:hover {
+  color: blue;
+}
+.container .mz-wrapper .mz-search {
+  width: 170px;
+  height: 32px;
+  float: left;
+  margin-top: 40px;
+  background: white;
+  border-radius: 20px;
+}
+.container .mz-wrapper .mz-search input {
+  margin-right: 3px;
+  margin: 10px;
+  border: 0;
+  width: 120px;
+}
+.container .mz-wrapper .mz-search .iconfont {
+  color: gray;
+  font-size: 14px;
+  float: right;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+.container .mz-wrapper span {
+  /**用户 购物车*/
+  float: left;
+  margin: 40px 10px;
+  color: white;
+  font-size: 29px;
+  cursor: pointer;
+}
+.slider {
+  height: 670px;
+  width: 100%;
+  background: blue;
+  display: block;
+}
+.slider .sliderbox a img {
+  width: 100%;
+  height: 670px;
+}
+.slider .bot {
+  width: 500px;
+  height: 26px;
+  position: absolute;
+  left: 33%;
+  bottom: 20px;
+  padding: 0 120px;
+}
+.slider .bot span {
+  display: inline-block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: gray;
+  margin-top: 8px;
+  border: 1px solid white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.index-container {
+  width: 100%;
+  background: red;
+}
+.index-container .inner1 {
+  padding: 30px;
+  width: 100%;
+  height: 287px;
+}
+.index-container .inner1 ul {
+  margin-top: 30px;
+  background: blue;
+}
+.index-container .inner1 ul li {
+  float: left;
+}
