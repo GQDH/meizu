@@ -1,0 +1,607 @@
+.wrapper {
+  width: 1240px;
+  margin: auto;
+}
+body {
+  background: white;
+  width: 100%;
+  font: 14px/1.5 Helvetica, Tahoma, Arial, Hiragino Sans GB, Microsoft YaHei, SimSun, Heiti, sans-serif;
+}
+.container {
+  border-bottom: 1px solid #dedede;
+  width: 100%;
+}
+.container .mz-wrapper {
+  margin: 0 auto;
+  width: 1240px;
+  height: 100px;
+}
+.container .mz-wrapper .mz-logo {
+  float: left;
+  margin: 42px 0 0;
+}
+.container .mz-wrapper .mz-logo .meizu-header-logo-img {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.container .mz-wrapper .mz-nav {
+  float: left;
+  margin-top: 45px;
+  margin-left: 100px;
+}
+.container .mz-wrapper .mz-nav li {
+  float: left;
+  font-size: 14px;
+  margin-right: 35px;
+}
+.container .mz-wrapper .mz-nav li a {
+  display: inline-block;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+.container .mz-wrapper .mz-nav li a:hover {
+  color: blue;
+}
+.container .mz-wrapper .mz-search {
+  width: 176px;
+  height: 32px;
+  float: left;
+  margin-top: 40px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.container .mz-wrapper .mz-search input {
+  margin-right: 3px;
+  margin: 10px;
+  border: 0;
+  width: 120px;
+}
+.container .mz-wrapper .mz-search .icon-fangdajing {
+  color: gray;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.container .mz-wrapper .icon-yonghu {
+  /**用户 购物车*/
+  float: left;
+  margin: 34px 10px;
+  font-size: 29px;
+  cursor: pointer;
+}
+.container .mz-wrapper a .icon-gouwuche {
+  /**用户 购物车*/
+  float: left;
+  margin: 34px 10px;
+  font-size: 29px;
+  cursor: pointer;
+}
+main {
+  width: 100%;
+  position: relative;
+  height: 1000px;
+}
+main .detail {
+  height: 100px;
+  background: #f6f8fb;
+  width: 100%;
+}
+main .detail .wrapper {
+  height: 100px;
+}
+main .detail .wrapper p {
+  float: left;
+  font-size: 26px;
+  margin-top: 40px;
+}
+main .detail .wrapper .box {
+  margin-right: 48px;
+  float: right;
+  margin-top: 42px;
+}
+main .detail .wrapper .box i:last-child {
+  border-right: 0;
+}
+main .detail .wrapper .box i {
+  border-right: 1px solid #dedede;
+  display: inline-block;
+  font-size: 16px;
+  color: #333;
+  padding: 0 10px;
+}
+main .detail .wrapper .box i:hover {
+  color: #008cff;
+}
+main .inner .phone-left {
+  width: 560px;
+  float: left;
+}
+main .inner .phone-left .preview-box {
+  width: 560px;
+  height: 560px;
+  background: red;
+}
+main .inner .phone-left .preview-box a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main .inner .phone-left .preview-box a img {
+  width: 560px;
+  height: 560px;
+}
+main .inner .phone-left .s-box {
+  width: 536px;
+  height: 107px;
+  margin: 10px 0 0 24px;
+}
+main .inner .phone-left .s-box li {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-top: 13px;
+  margin-right: 30px;
+  margin: 13px 20px 0;
+}
+main .inner .phone-left .s-box li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+main .inner .phone-left .s-box li a img {
+  width: 80px;
+  height: 80px;
+}
+main .inner .phone-left .smalli {
+  width: 400px;
+  height: 49px;
+  margin: 10px 56px 0;
+}
+main .inner .phone-left .smalli a {
+  color: #bfbfbf;
+  text-align: center;
+  margin-left: 40px;
+  display: block;
+  float: left;
+}
+main .inner .phone-left .smalli a .icon-sel-collect {
+  font-size: 20px;
+}
+main .inner .phone-left .smalli a .icon-duibi {
+  font-size: 20px;
+}
+main .inner .phone-left .smalli a span {
+  display: block;
+}
+main .inner .phone-right {
+  width: 640px;
+  padding-top: 40px;
+  float: right;
+}
+main .inner .phone-right h1 {
+  width: 640px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 33px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+main .inner .phone-right .ke {
+  width: 640px;
+  height: 42px;
+  color: red;
+  font-size: 14px;
+}
+main .inner .phone-right .sell {
+  width: 640px;
+  background: #f4f6fa;
+  padding: 16px 0 12px;
+}
+main .inner .phone-right .sell p {
+  font-size: 36px;
+  color: red;
+}
+main .inner .phone-right .sell p span {
+  font-size: 24px;
+  color: red;
+}
+main .inner .phone-right .sell em {
+  color: #e02b41;
+  font-size: 14px;
+  display: block;
+  margin: 10px 0;
+}
+main .inner .phone-right .sell em i {
+  width: 72px;
+  height: 22px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 2px;
+  background: #F2EAEF;
+  color: #e02b41;
+  padding: 4px 0;
+  display: inline-block;
+  margin: 0 10px;
+}
+main .inner .phone-right .sell em span {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #008cff;
+  cursor: pointer;
+}
+main .inner .phone-right .sell .shop {
+  color: #595959;
+}
+main .inner .phone-right .support {
+  height: 117px;
+  width: 640px;
+  padding: 18px 0;
+  border-bottom: 1px dashed #dedede;
+}
+main .inner .phone-right .support .good {
+  width: 100%;
+  height: 18px;
+}
+main .inner .phone-right .support .good .iconfont {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 4px;
+  color: #595959;
+}
+main .inner .phone-right .support .good span:first-child {
+  padding-left: 10px;
+}
+main .inner .phone-right .support .good span {
+  font-size: 12px;
+  color: #8c8c8c;
+  height: 18px;
+  line-height: 18px;
+}
+main .inner .phone-right .support .address {
+  width: 100%;
+  height: 20px;
+  padding-top: 15px;
+}
+main .inner .phone-right .support .address i {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+main .inner .phone-right .support .address i .ad {
+  font-size: 14px;
+  color: #262626;
+  line-height: 18px;
+  height: 18px;
+}
+main .inner .phone-right .support .address i .ad .icon-lower-triangle {
+  display: inline;
+  font-size: 12px;
+  padding-left: 8px;
+  padding-top: 5px;
+}
+main .inner .phone-right .support .kefu {
+  width: 100%;
+  height: 20px;
+  margin-top: 24px;
+  margin-left: 63px;
+}
+main .inner .phone-right .support .kefu i {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+main .inner .phone-right .support .kefu .icon-kefu {
+  color: #008cff;
+  font-size: 16px;
+  margin-left: 6px;
+}
+main .inner .phone-right .support .kefu em {
+  font-size: 12px;
+  color: #008cff;
+}
+main .inner .phone-right .type {
+  width: 100%;
+  height: 106px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .type .jihao {
+  float: left;
+  width: 75px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+main .inner .phone-right .type .shouji {
+  width: 565px;
+  float: right;
+  height: 100%;
+}
+main .inner .phone-right .type .shouji a {
+  display: block;
+  width: 178px;
+  float: left;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  text-align: center;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+}
+main .inner .phone-right .wifi {
+  width: 100%;
+  height: 53px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .wifi p {
+  width: 178px;
+  float: left;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  text-align: center;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+}
+main .inner .phone-right .wifi .net {
+  float: left;
+  width: 75px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+main .inner .phone-right .color {
+  width: 100%;
+  height: 106px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .color .color-t {
+  float: left;
+  width: 75px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+main .inner .phone-right .color .pt {
+  width: 565px;
+  float: right;
+  height: 100%;
+}
+main .inner .phone-right .color .pt a {
+  display: block;
+  width: 178px;
+  float: left;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+main .inner .phone-right .color .pt a img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+main .inner .phone-right .color .pt a span {
+  color: #595959;
+  font-size: 14px;
+}
+main .inner .phone-right .content {
+  width: 100%;
+  height: 53px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .content .save {
+  float: left;
+  width: 75px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+main .inner .phone-right .content .G {
+  width: 565px;
+  float: right;
+  height: 100%;
+}
+main .inner .phone-right .content .G a {
+  display: block;
+  width: 178px;
+  float: left;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+main .inner .phone-right .combo {
+  width: 100%;
+  height: 106px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .combo .select {
+  float: left;
+  width: 75px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+main .inner .phone-right .combo .offical {
+  width: 565px;
+  float: right;
+  height: 100%;
+}
+main .inner .phone-right .combo .offical em {
+  display: block;
+  width: 178px;
+  float: left;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+main .inner .phone-right .combo .offical a {
+  display: block;
+  width: 178px;
+  float: left;
+  height: 43px;
+  border: 1px solid #BFBFBF;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+main .inner .phone-right .combo .offical a span {
+  color: #595959;
+  margin-right: 6px;
+}
+main .inner .phone-right .combo .offical a i {
+  color: #f86467;
+  font-size: 12px;
+}
+main .inner .phone-right .combo .offical a i p {
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+}
+main .inner .phone-right .stage {
+  width: 100%;
+  height: 57px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .stage .ant {
+  float: left;
+  width: 75px;
+  height: 57px;
+  line-height: 50px;
+  text-align: center;
+  color: #8c8c8c;
+  font-size: 12px;
+  position: relative;
+}
+main .inner .phone-right .stage .ant .huabei {
+  display: inline-block;
+  font-size: 12px;
+}
+main .inner .phone-right .stage .ant .icon-wenhao {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  color: #8c8c8c;
+}
+main .inner .phone-right .stage .day {
+  width: 178px;
+  float: left;
+  height: 57px;
+  border: 1px solid #BFBFBF;
+  text-align: center;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  padding: 7px 0;
+  font-size: 14px;
+}
+main .inner .phone-right .stage .day span:first-child {
+  display: block;
+  font-size: 14px;
+  color: #595959;
+  line-height: 18px;
+}
+main .inner .phone-right .stage .day span:last-child {
+  display: block;
+  font-size: 12px;
+  color: #8c8c8c;
+  line-height: 18px;
+  padding-top: 3px;
+}
+main .inner .phone-right .number {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 45px;
+  margin: 20px 0 10px;
+}
+main .inner .phone-right .number .n1 {
+  float: left;
+  width: 75px;
+  height: 57px;
+  line-height: 50px;
+  text-align: center;
+  color: #8c8c8c;
+  font-size: 12px;
+}
+main .inner .phone-right .number .n1 span {
+  display: inline-block;
+  width: 5px;
+}
+main .inner .phone-right .number .sl {
+  width: 178px;
+  float: left;
+  height: 40px;
+  text-align: center;
+  line-height: 43px;
+  color: #595959;
+  margin: 0 10px 10px 0;
+  padding: 7px 0;
+  font-size: 14px;
+}
+main .inner .phone-right .number .sl a {
+  width: 32px;
+  height: 40px;
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  float: left;
+}
+main .inner .phone-right .number .sl span {
+  float: left;
+  width: 62px;
+  height: 40px;
+  background: #f7f7f7;
+  border: 0;
+  border: 1px solid #e7e7e7;
+}
+main .inner .phone-right .instantshop {
+  width: 100%;
+  height: 56px;
+  margin-top: 30px;
+}
+main .inner .phone-right .instantshop .shop-atlast {
+  width: 208px;
+  height: 56px;
+  float: left;
+  background: blue;
+  text-align: center;
+  line-height: 56px;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+main .inner .phone-right .instantshop .shopcat {
+  width: 208px;
+  height: 56px;
+  float: left;
+  text-align: center;
+  line-height: 56px;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 20px;
+}
