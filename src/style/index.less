@@ -5,106 +5,202 @@ body{
     font: 14px/1.5 Helvetica,Tahoma,Arial,Hiragino Sans GB,Microsoft YaHei,SimSun,Heiti,sans-serif;
     
 }
-.container{
-    // overflow: hidden;
+.clearfix:before {
+    content: "";
+    display: table;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/**********************header************************/
+
+#mz-hd {
     position: absolute;
-    // position: fixed;
-    left:0;
-    top:0;
-    z-index:999;
-    width:100%;
-    // background:yellow;
-    .mz-wrapper{
-        margin:0 auto;
-        width:1240px;
-        // background:green;
-        height:100px;
-        .mz-logo{
-            float:left;
-            margin:40px 0;
-            .meizu-header-logo-img{
-           display:block;
-           background-repeat:no-repeat;
-           background-position:50%;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background: transparent;
+
+    .container {
+        margin: 0 auto;
+        width: 1240px;
+        height: 82px;
+    }
+
+    .hd-loge {
+        // line-height: 82px;
+        float: left;
+        padding: 28px 0;
+    }
+
+    .hd-cart {
+        float: right;
+
+        >a {
+            position: relative;
+            float: right;
+            margin: 24px 0 0 8px;
+            width: 29px;
+            height: 29px;
+            background-image: url(../images/gwc.png);
+            background-size: 100%;
+        }
+    }
+
+    .hd-user {
+        float: right;
+        width: 29px;
+        height: 29px;
+        padding: 32px 0 0 9px;
+        margin-top: -12px;
+        margin-right:10px;
+
+
+        &:hover >ul{
+            display: block;
+        }
+        div {
+            >a {
+                font-size:26px;
+                // color:white;
+                
             }
         }
-        .mz-nav{
-            float:left;
-            margin:45px 0;
-            margin-left:100px;
-            li{
-                float:left;
-                font-size:14px;
-                margin-right:35px;
-                a{
-                    display:inline-block;
-                    color:white;
-                    width:100%;
-                    height:100%;
+
+        >ul {
+            display: none;
+            position: absolute;
+            right: 0;
+            z-index: 1;
+            width: 98px;
+            background-color: #fff;
+            top: 64px;
+            left: 82%;
+            border-radius: 2px;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 15px 0;
+            margin-left: -48px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+
+            >li {
+                font-size: 12px;
+                display: block;
+                margin: 15px auto;
+                
+                >a{
+                    position: relative;
+                    z-index: 4;
+                    color: #515151;
+                    text-decoration: none;
                     &:hover{
-                        color:blue;
+                        color: #008cff;
                     }
                 }
-                
-
-            }
-        }
-
-        .mz-search{ 
-            width:170px;
-            height:32px;
-            float:left;
-            margin-top:40px; 
-            background:white;
-            border-radius:20px;
-            input{
-                margin-right:3px;
-                margin:10px;
-                border:0;
-                width:120px;
-            }
-            .iconfont{
-                color:gray;
-                font-size:14px;
-                float:right;
-                margin-right:6px;
-                margin-top:10px;
-               
             }
 
-            
-        }
-        
-       span{
-           /**用户 购物车*/
-            float:left;
-            margin:40px 10px;
-            color:white;
-            // margin:5px;
-            font-size:29px;
-           cursor: pointer;
         }
 
+        >ul::after {
+            display: block;
+            content: "";
+            width: 0;
+            height: 0;
+            border: 10px solid;
+            border-color: transparent transparent #fff;
+            left: 40px;
+            top: -15px;
+            position: absolute;
+
+        }
+
+        >ul :first-child {
+            margin-top: 0;
+        }
+
+        >ul :last-child {
+            margin-bottom: 0;
+        }
 
     }
+
+    .hd-search {
+        position: relative;
+        float: right;
+        margin: 24px 5px 0 10px;
+        width: 170px;
+        height: 30px;
+        line-height: 29px;
+        font-size: 12px;
+        background: #fff;
+        border-radius: 20px;
+        // border: 1px solid #999;
+        box-sizing: border-box;
+
+        >input {
+            display: block;
+            border: none;
+            padding: 0;
+            outline: 0;
+            width: 127px;
+            height: 20px;
+            margin-left: 15px;
+            margin-top: 5px;
+            transition: width .5s;
+            font-size: 12px;
+            line-height: 20px;
+            color: #333;
+            background: transparent;
+            box-sizing: content-box;
+            outline-offset: 0;
+        }
+
+        >a {
+            display: block;
+            margin: 7px 5px 0 auto;
+            width: 17px;
+            height: 14px;
+            position: absolute;
+            right: 2px;
+            top: -20%;
+            color: #666;
+            font-size: 20px;
+        }
+    }
+
+    .hd-link {
+        float: right;
+
+        >li {
+            float: left;
+            padding: 31px 20px 30px;
+            transition: color .1s linear;
+            font-size: 14px;
+
+            &:hover a {
+                color: #008cff;
+
+            }
+        }
+    }
 }
+
 
 .slider{
     height:670px;
     width:100%;
-    // overflow: hidden;
-    // background:blue;
-    // position: absolute;
-    // position: fixed;
-    display:block;
-    // top:0px;
-    // left:0;
+    overflow:hidden;
+    position:relative; 
     .sliderbox{
-        position: relative;
+
         a{
             img{
                 width:100%;
                 height:670px;
+                position:absolute;
+                top:0;
+                left:0;
             }
         }
         .bot{
@@ -143,11 +239,17 @@ body{
     // background:red;
     .inner1{
         background:white;
-        padding:30px 40px;
+        // padding:30px 40px;
         width:100%;
         height:287px;
         ul{
             // background:blue;
+            // .left{
+            //     float:left;
+            // }
+            // .right{
+            //     float:right;
+            // }
            a{   
                width:25%;
                display:block;
@@ -162,7 +264,7 @@ body{
                    img{
                     
                        display: block;
-                       margin-left:90px;
+                       margin-left:160px;
                     width:130px;
                     height:130px;
                     margin-top:20px;      
@@ -214,11 +316,14 @@ body{
 
 // 赠品
     .presentbox{
-        height:1001px;
+        // height:1001px;
         background:#ccc;
         width:100%;
-        padding:0 50px;
+        // padding:0 50px;
         ul{
+            overflow: hidden;
+           width:1243px;
+            margin:0 auto;
             a:nth-of-type(1){
                 margin-right:10px;
             }
@@ -278,14 +383,16 @@ body{
           div:nth-of-type(3){
             margin-right:10px;
         }
-         div{
+         .mz-17{
               width:303px;
               height:375px;
               background:white;
               float:left;
               text-align:center;
-            
-                
+            a{
+                display:block;
+                width: 100% ;
+                height:100%;
                 img{
                     width: 230px;
                     height: 230px;
@@ -307,6 +414,9 @@ body{
                   color:#c00;
                   margin-top:10px;             
                  }
+            }
+                
+           
            
                 
              }
@@ -349,9 +459,12 @@ body{
     height:1155px;
     padding:0 50px; 
     
+    
     >.bigbox{
         width:100%;
         background:red;
+        width:1243px;
+    margin:0 auto;
         li{
             float: left;
             

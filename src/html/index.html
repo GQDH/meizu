@@ -11,76 +11,81 @@
     <link rel="stylesheet" href="../public/iconfont1.css">
     <link rel="stylesheet" href="../style/index.css">
 </head>
+<script src="../js/index.js" type="module"></script>
+<script src="../js/slider.js" type="module"></script>
+<!-- <script src="../js/ff.js" type="module"></script> -->
 
 <body>
     <!-- 头部导航 -->
-    <header class="container">
-        <nav class="mz-wrapper">
-            <div class="mz-logo">
-                <a href="/index.html" class="meizu-header-logo-img" data-bh="click_public_yt_logo" data-mtype="gw_public_yt_logo"><svg fill="#008cff" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="125px" height="24px" viewBox="17.318 5.824 402.048 73.556" enable-background="new 17.318 5.824 402.048 73.556"><path d="M321.513,5.824H256.91v12.878h51.478l-49.294,44.581c-8.227,7.023-2.872,16.096,3.958,16.096h65.337V66.472 h-52.117l48.964-44.554C333.52,14.473,328.535,5.824,321.513,5.824"></path><rect x="226.517" y="5.824" width="14.426" height="73.556"></rect><path d="M104.296,5.824h-71.36c-8.576,0-15.618,7.012-15.618,15.588v57.967H31.14V23.743 c0-2.711,2.208-5.041,4.92-5.041h25.31v60.677h14.428V18.702h25.312c2.712,0,4.919,2.329,4.919,5.041v55.636h13.86V21.416 C119.888,12.841,112.872,5.824,104.296,5.824"></path><path d="M148.765,23.614c0-2.712,2.199-4.912,4.911-4.912h55.909V5.824h-58.236c-8.576,0-15.592,7.016-15.592,15.592 v42.37c0,8.576,7.017,15.592,15.592,15.592h58.236V66.5h-55.909c-2.711,0-4.911-2.199-4.911-4.912V49.042h58.43V36.117h-58.43 V23.614z"></path><path d="M405.506,5.824v55.637c0,2.71-2.22,5.039-4.931,5.039h-39.77c-2.711,0-4.892-2.328-4.892-5.039V5.824h-13.86 v57.963c0,8.576,7.018,15.592,15.592,15.592h46.127c8.575,0,15.592-7.017,15.592-15.592V5.824H405.506z"></path></svg></a>
+    <div id="mz-hd">
+        <div class="container">
+            <div class="hd-loge">
+                <a href="">
+                    <svg fill="#008cff" version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="125px" height="24px" viewBox="17.318 5.824 402.048 73.556" enable-background="new 17.318 5.824 402.048 73.556">
+                <path
+                  d="M321.513,5.824H256.91v12.878h51.478l-49.294,44.581c-8.227,7.023-2.872,16.096,3.958,16.096h65.337V66.472 h-52.117l48.964-44.554C333.52,14.473,328.535,5.824,321.513,5.824"
+                ></path>
+                <rect x="226.517" y="5.824" width="14.426" height="73.556"></rect>
+                <path
+                  d="M104.296,5.824h-71.36c-8.576,0-15.618,7.012-15.618,15.588v57.967H31.14V23.743 c0-2.711,2.208-5.041,4.92-5.041h25.31v60.677h14.428V18.702h25.312c2.712,0,4.919,2.329,4.919,5.041v55.636h13.86V21.416 C119.888,12.841,112.872,5.824,104.296,5.824"
+                ></path>
+                <path
+                  d="M148.765,23.614c0-2.712,2.199-4.912,4.911-4.912h55.909V5.824h-58.236c-8.576,0-15.592,7.016-15.592,15.592 v42.37c0,8.576,7.017,15.592,15.592,15.592h58.236V66.5h-55.909c-2.711,0-4.911-2.199-4.911-4.912V49.042h58.43V36.117h-58.43 V23.614z"
+                ></path>
+                <path
+                  d="M405.506,5.824v55.637c0,2.71-2.22,5.039-4.931,5.039h-39.77c-2.711,0-4.892-2.328-4.892-5.039V5.824h-13.86 v57.963c0,8.576,7.018,15.592,15.592,15.592h46.127c8.575,0,15.592-7.017,15.592-15.592V5.824H405.506z"
+                ></path>
+              </svg>
+                </a>
             </div>
-            <ul class="mz-nav">
-                <li>
-                    <a href="#">手机</a>
-                </li>
-                <li>
-                    <a href="#">声学</a>
-                </li>
-                <li>
-                    <a href="#">配件</a>
-                </li>
-                <li>
-                    <a href="#">生活</a>
-                </li>
-                <li>
-                    <a href="#">Flyme</a>
-                </li>
-                <li>
-                    <a href="#">服务</a>
-                </li>
-                <li>
-                    <a href="#">专卖店</a>
-                </li>
-                <li>
-                    <a href="#">社区</a>
-                </li>
-                <li>
-                    <a href="#">政企制定</a>
-                </li>
-                <li>
-                    <a href="#">App下载</a>
-                </li>
+
+            <div class="hd-cart">
+                <a href="#"></a>
+            </div>
+            <div class="hd-user">
+                <div>
+                    <a href="" class="iconfont icon-yonghu"></a>
+                </div>
+                <ul>
+                    <li> <a href="./login.html">立即登录</a></li>
+                    <li> <a href="./register.html">立即注册</a></li>
+                    <li> <a href="./gwc.html">我的订单</a></li>
+                    <li> <a>M码通道</a></li>
+                </ul>
+
+            </div>
+            <div class="hd-search">
+                <input type="text" placeholder="魅族 16T" />
+                <a href="" class="iconfont icon-fangdajing"></a>
+            </div>
+            <ul class="hd-link">
+                <li><a href="">手机</a></li>
+                <li><a href="">声学</a></li>
+                <li><a href="">配件</a></li>
+                <li><a href="">生活</a></li>
+                <li><a href="">Flyme</a></li>
+                <li><a href="">服务</a></li>
+                <li><a href="">专卖店</a></li>
+                <li><a href="">社区</a></li>
+                <li><a href="">政企定制</a></li>
+                <li><a href="">APP下载</a></li>
             </ul>
-            <div class="mz-search">
 
-                <input type="text" placeholder="魅族 16T">
-                <a href=""></a>
-                <!--搜索 -->
-                <span class="iconfont icon-fangdajing"></span>
-
-
-            </div>
-            <!-- 用户 -->
-            <span class="iconfont icon-yonghu"></span>
-            <!-- 购物车 -->
-            <a href="#"><span class="iconfont icon-gouwuche"></span></a>
-    </header>
+            <div class="hd-warp"></div>
+        </div>
+    </div>
     <!-- banner -->
     <!-- 轮播图 -->
     <div class="slider">
         <li class="sliderbox">
-            <a href="#"><img src="../images/3.jpg" alt=""></a>
-            <div class="bot">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </div>
+            <a href="#"><img class="lazy" data-original="../images/3.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/1.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/12.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/4.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/5.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/7.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/9.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/10.jpg" alt=""></a>
         </li>
 
     </div>
@@ -92,28 +97,28 @@
             <ul>
                 <a href="">
                     <li>
-                        <img src="../images/mz-17pro.png" alt="">
+                        <img class="lazy" class="lazy" data-original="../images/mz-17pro.png" alt="">
                         <em>魅族 17 Pro</em>
                         <p>限时领卷至高立省200</p>
                     </li>
                 </a>
                 <a href="#">
                     <li>
-                        <img src="../images/share.png" alt="">
+                        <img class="lazy" class="lazy" data-original="../images/share.png" alt="">
                         <em>分享热爱 共享无忧</em>
                         <p>登记入口</p>
                     </li>
                 </a>
                 <a href="#">
                     <li>
-                        <img src="../images/one.png" alt="">
+                        <img class="lazy" class="lazy" data-original="../images/one.png" alt="">
                         <em>魅族年度摄影大赛</em>
                         <p>将生活一按成诗</p>
                     </li>
                 </a>
                 <a href="#">
                     <li>
-                        <img src="../images/mCycle.jpg" alt="">
+                        <img class="lazy" class="lazy" data-original="../images/mCycle.jpg" alt="">
                         <em>mCycle</em>
                         <p>16变17 省钱又舒心</p>
                     </li>
@@ -125,54 +130,57 @@
         <!-- 手机 -->
         <div class="phone">
             <p>手机</p>
-            <a href="#"><img src="../images/mz-17.jpg" alt=""></a>
+            <a href="#"><img class="lazy" data-original="../images/mz-17.jpg" alt=""></a>
         </div>
         <!-- 赠品 -->
         <div class="presentbox">
-            <ul>
+            <ul id="add">
 
-                <a href="#">
+                <a href="#" class="left">
                     <li>
                         <div class="present">赠品</div>
                         <p>魅族 mz-17pro</p>
                         <i>限时领卷至高立省200+赠全新壳膜套装</i>
                         <em>￥4299</em>
-                        <img src="../images/mz17-1.png" alt="">
+                        <img class="lazy" data-original="../images/mz17-1.png" alt="">
                     </li>
                 </a>
-                <a href="#">
+                <a href="#" class="right">
                     <li>
                         <div class="present">赠品</div>
                         <p>魅族 mz-17pro</p>
                         <i>限时领卷至高立省200+赠全新壳膜套装</i>
                         <em>￥4299</em>
-                        <img src="../images/mz17-1.png" alt="">
+                        <img class="lazy" data-original="../images/mz17-1.png" alt="">
                     </li>
                 </a>
+
+
+                <!-- 
                 <div class="mz-17">
-                    <img src="../images/mz17-xianding.png" alt="">
+                    <img class="lazy" data-original="../images/mz17-xianding.png" alt="">
                     <p>魅族 17 航母限定版</p>
                     <i>以梦为舰 热爱起航</i>
                     <em>￥4299</em>
                 </div>
-                <div>
-                    <img src="../images/mz16T.png" alt="">
+                <div class="mz-17">
+                    <img class="lazy" data-original="../images/mz16T.png" alt="">
                     <p>魅族 16T</p>
                     <i>6.5英寸极边全面屏</i>
                     <em>￥1999</em>
                 </div>
-                <div>
-                    <img src="../images/mz16sPro.png" alt="">
+                <div class="mz-17">
+                    <img class="lazy" data-original="../images/mz16sPro.png" alt="">
                     <p>魅族 16s Pro</p>
                     <i>高通骁龙855 Plus | 索尼 4800W AI 三摄</i>
                     <em>￥4299</em>
-                </div>
-                <div>
-                    <img src="../images/mz16xs.png" alt="">
+                </div> -->
+                <!-- <div class="mz-17">
+                    <img class="lazy" data-original="../images/mz16xs.png" alt="">
                     <p>魅族 16xs</p>
                     <i>极边全面屏 | 4800W AI三摄|疾速屏下指纹</i>
                     <em>￥4299</em>
-                </div>
+                </div> -->
 
             </ul>
         </div>
@@ -180,7 +188,7 @@
 
     <!-- 魅族声学 -->
     <div class="voice">魅族声学</div>
-    <a href="#" class="hd"><img src="../images/HD.jpg" alt=""></a>
+    <a href="#" class="hd"><img class="lazy" data-original="../images/HD.jpg" alt=""></a>
 
 
     <!-- 魅族EP3C耳机 -->
@@ -190,7 +198,7 @@
             <li>
                 <a href="#" class="EP3C">
                     <div class="headset">
-                        <img src="../images/ep3c.jpg" alt="">
+                        <img class="lazy" data-original="../images/3c.jpg" alt="">
                         <div class="box1">
                             <p>魅族 EP3C 耳机</p>
                             <i>Hi-Res 认证高解析音质 | Type-C数字接口</i>
@@ -199,22 +207,21 @@
                     </div>
                 </a>
                 <a href="#" class="mz-16T m1">
-                    <img src="../images/HIFI.png" alt="">
+                    <img class="lazy" data-original="../images/HIFI.png" alt="">
                     <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
+                    <i>【开学季限时特惠119元】 高性能DAC芯片</i>
                     <em>￥169</em>
                 </a>
                 <a href="#" class="mz-16T m2">
-                    <img src="../images/HIFI.png" alt="">
-                    <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <img class="lazy" data-original="../images/ep63.png" alt="">
+                    <p>魅族 EP63NC 无线降噪耳机</p>
+                    <i>【开学季限时特惠399元】 AMS芯片智能降噪</i> <em>￥399</em>
                 </a>
                 <a href="#" class="mz-16T m3">
-                    <img src="../images/HIFI.png" alt="">
-                    <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <img class="lazy" data-original="../images/HD60.png" alt="">
+                    <p>魅族HD60 头戴式蓝牙耳机</p>
+                    <i>【开学季限时特惠429元】 40mm 生物振膜</i>
+                    <em>￥499</em>
                 </a>
             </li>
 
@@ -222,62 +229,62 @@
             <li>
                 <a href="#" class="EP3C">
                     <div class="headset">
-                        <img src="../images/ep3c.jpg" alt="">
+                        <img class="lazy" data-original="../images/HD60.jpg" alt="">
                         <div class="box1">
-                            <p>魅族 EP3C 耳机</p>
-                            <i>Hi-Res 认证高解析音质 | Type-C数字接口</i>
-                            <em>￥129</em>
+                            <p>魅族 HD60 头戴式蓝牙耳机</p>
+                            <i>【开学季限时特惠429元】 触控操作|蓝牙5.0</i>
+                            <em>￥499</em>
                         </div>
                     </div>
                 </a>
                 <a href="#" class="mz-16T m1">
-                    <img src="../images/HIFI.png" alt="">
-                    <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <img class="lazy" data-original="../images/ep52.png" alt="">
+                    <p>魅族 EP52 Lite 蓝牙耳机</p>
+                    <i>【开学季限时特惠109元】 生物纤维振膜</i>
+                    <em>￥129</em>
                 </a>
                 <a href="#" class="mz-16T m2">
-                    <img src="../images/HIFI.png" alt="">
+                    <img class="lazy" data-original="../images/ep2x.png" alt="">
                     <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <i>一体式线控|3.5mm接口|流线设计</i>
+                    <em>￥69</em>
                 </a>
                 <a href="#" class="mz-16T m3">
-                    <img src="../images/HIFI.png" alt="">
-                    <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <img class="lazy" data-original="../images/pop2.png" alt="">
+                    <p>魅族 POP2真无线蓝牙耳机</p>
+                    <i>蓝牙5.0|单词8H续航|石墨烯振膜|双耳通话</i>
+                    <em>￥399</em>
                 </a>
             </li>
 
             <li>
                 <a href="#" class="EP3C">
                     <div class="headset">
-                        <img src="../images/ep3c.jpg" alt="">
+                        <img class="lazy" data-original="../images/UR.jpg" alt="">
                         <div class="box1">
-                            <p>魅族 EP3C 耳机</p>
-                            <i>Hi-Res 认证高解析音质 | Type-C数字接口</i>
-                            <em>￥129</em>
+                            <p>MEIZU UR 高端定制耳机 预约</p>
+                            <i>【预约专用】 私人订制，为你而声</i>
+                            <em>￥200</em>
                         </div>
                     </div>
                 </a>
                 <a href="#" class="mz-16T m1">
-                    <img src="../images/HIFI.png" alt="">
-                    <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <img class="lazy" data-original="../images/EP21.png" alt="">
+                    <p>魅族 EP21耳机</p>
+                    <i>三键一体式线控|3.5mm接口</i>
+                    <em>￥89</em>
                 </a>
                 <a href="#" class="mz-16T m2">
-                    <img src="../images/HIFI.png" alt="">
+                    <img class="lazy" data-original="../images/LIVE.png" alt="">
                     <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <i>Knowles四动铁 双通道导音系统 现场级音乐表现</i>
+                    <em>￥1099</em>
                 </a>
                 <a href="#" class="mz-16T m3">
-                    <img src="../images/HIFI.png" alt="">
-                    <p>魅族 HIFI 解码耳放</p>
-                    <i>高性能DAC芯片|纯净HIFI音质|600Ω高阻抗推力</i>
-                    <em>￥169</em>
+                    <img class="lazy" data-original="../images/HALO.png" alt="">
+                    <p>魅族 HALO激光蓝牙耳机</p>
+                    <i>炫酷夜跑神器 随性张扬</i>
+                    <em>￥499</em>
                 </a>
             </li>
 
@@ -298,37 +305,37 @@
                     <ul class="ft-service">
                         <li>
                             <a href="">
-                                <img src="../images/SF.png" alt="">
+                                <img class="lazy" data-original="../images/SF.png" alt="">
                                 <span>满80免运费</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="../images/flash.png" alt="">
+                                <img class="lazy" data-original="../images/flash.png" alt="">
                                 <span>100+ 城市次日送达</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="../images/box.png" alt="">
+                                <img class="lazy" data-original="../images/box.png" alt="">
                                 <span>7天无理由退货</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="../images/recycle.png" alt="">
+                                <img class="lazy" data-original="../images/recycle.png" alt="">
                                 <span>15天换货保障</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="../images/weixiu.png" alt="">
+                                <img class="lazy" data-original="../images/weixiu.png" alt="">
                                 <span>1年免费保修</span>
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="../images/gohome.png" alt="">
+                                <img class="lazy" data-original="../images/gohome.png" alt="">
                                 <span>上门快修</span>
                             </a>
                         </li>
@@ -381,16 +388,16 @@
                 </div>
                 <div class="co-right">
                     <a href="">
-                        <img src="../images/wuxian.png" alt="">
+                        <img class="lazy" data-original="../images/wuxian.png" alt="">
                     </a>
                     <a href="">
-                        <img src="../images/WeChat.png" alt="">
+                        <img class="lazy" data-original="../images/WeChat.png" alt="">
                     </a>
                     <a href="">
-                        <img src="../images/qq.png" alt="">
+                        <img class="lazy" data-original="../images/qq.png" alt="">
                     </a>
                     <a href="">
-                        <img src="../images/weibo.png" alt="">
+                        <img class="lazy" data-original="../images/weibo.png" alt="">
                     </a>
                 </div>
 

@@ -11,7 +11,9 @@
     <meta name="Keywords" content="“魅族手机官网商城,魅族官方在线商店,魅族在线商城,魅族官网在线商店,魅族手机,魅蓝手机官网商城,魅蓝官方在线商店,魅蓝在线商城,魅蓝官网在线商店,魅蓝手机,魅族商城,魅蓝商城,魅族商城App,魅蓝商城App”">
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/shopcar.css">
+    <link rel="stylesheet" href="../public/iconfont2.css">
 </head>
+<script src="../js/shopcar.js" type="module"></script>
 
 <body>
     <!-- 头部 -->
@@ -67,8 +69,8 @@
     <div class="inner">
         <div class="selectall">
             <div class="box">
-                <div class="pane">
-
+                <div class="pane" class="allproduct">
+                    <input type="checkbox">
                 </div>
                 <span class="all">全选</span>
             </div>
@@ -76,9 +78,12 @@
             <i>数量</i>
             <i>小计</i>
             <em>编辑</em>
+
         </div>
 
-        <div class="mz">
+
+
+        <!-- <div class="mz">
             <div class="box1">
                 <div class="pane">
 
@@ -87,53 +92,59 @@
             </div>
             <i>已免运费</i>
 
-        </div>
+        </div> -->
 
         <!-- 加购价 -->
         <div class="add">
             <span class="shop">加购价</span>
             <i>另加29元起，即可换购超值商品</i>
             <em>立即加购 ></em>
+            <span class="iconfont icon-duigou"></span>
         </div>
 
         <!-- 魅族 17 -->
-        <div class="mz-17">
-            <div class="box3">
-                <div class="pane">
+        <div class="product">
+            <!-- <div class="mz-17">
+                <div class="box3">
+                    <div class="pane">
 
+                    </div>
+                    <a href="#" class="i">
+                        <img src="../images/17.png" alt="">
+                    </a>
+                    <a href="#" class="quan">
+                        <p class="p1">魅族 17</p>
+                        <p class="p2">全网通公开版 AG梦幻独角兽 8+128GB</p>
+                    </a>
                 </div>
-                <a href="#" class="i">
-                    <img src="../images/17.png" alt="">
-                </a>
-                <a href="#" class="quan">
-                    <p class="p1">魅族 17</p>
-                    <p class="p2">全网通公开版 AG梦幻独角兽 8+128GB</p>
-                </a>
-            </div>
 
-            <div class="money">
-                <p>
+                <div class="money">
+                    <p>
+                        <span>￥3699.00</span>
+                    </p>
+                </div>
+
+                <div class="number">
+                    <span class="del">-</span>
+                    <input type="text" value="1">
+                    <span>+</span>
+                </div>
+
+                <div class="whole">
                     <span>￥3699.00</span>
-                </p>
-            </div>
-
-            <div class="number">
-                <span class="del">-</span>
-                <input type="text" value="1">
-                <span>+</span>
-            </div>
-
-            <div class="whole">
-                <span>￥3699.00</span>
-            </div>
-            <div class="gang">
-                <span>--</span>
-            </div>
+                </div>
+                <div class="gang">
+                    <span>--</span>
+                </div>
+            </div> -->
         </div>
+
+
+
         <div class="chooseall">
             <div class="box4">
-                <div class="pane">
-
+                <div class="pane" id="cancelproduct">
+                    <input type="checkbox">
                 </div>
                 <span class="all">全选</span>
             </div>

@@ -94,6 +94,11 @@ header .container .mybox .store p {
   margin-top: 15px;
   cursor: pointer;
 }
+.inner .selectall .box .pane input {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
 .inner .selectall .box .all {
   display: inline-block;
   color: #333;
@@ -181,16 +186,22 @@ header .container .mybox .store p {
   padding-top: 24px;
   border-top: 1px solid #efefef;
 }
-.inner .mz-17 {
-  height: 120px;
+.inner .add .iconfont {
+  font-size: 20px;
+  color: gold;
+}
+.inner .product {
   margin-top: 20px;
   border-bottom: 1px solid #efefef;
 }
-.inner .mz-17 .box3 {
+.inner .product .mz-17 {
+  height: 120px;
+}
+.inner .product .mz-17 .box3 {
   width: 413px;
   float: left;
 }
-.inner .mz-17 .box3 .pane {
+.inner .product .mz-17 .box3 .pane {
   display: inline-block;
   vertical-align: middle;
   width: 20px;
@@ -204,41 +215,46 @@ header .container .mybox .store p {
   cursor: pointer;
   user-select: none;
 }
-.inner .mz-17 .box3 .i {
+.inner .product .mz-17 .box3 .pane input {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.inner .product .mz-17 .box3 .i {
   margin-left: 19px;
   display: inline-block;
   vertical-align: middle;
   color: #262626;
 }
-.inner .mz-17 .box3 .i img {
+.inner .product .mz-17 .box3 .i img {
   width: 100px;
   height: 100px;
   border-style: none;
   vertical-align: top;
 }
-.inner .mz-17 .box3 .quan {
+.inner .product .mz-17 .box3 .quan {
   margin-left: 19px;
   width: 245px;
   display: inline-block;
   vertical-align: middle;
   color: #262626;
 }
-.inner .mz-17 .box3 .quan .p1 {
+.inner .product .mz-17 .box3 .quan .p1 {
   font-size: 16px;
   color: #262626;
 }
-.inner .mz-17 .box3 .quan .p2 {
+.inner .product .mz-17 .box3 .quan .p2 {
   color: #8C8C8C;
   font-size: 14px;
   margin-top: 4px;
 }
-.inner .mz-17 .money {
+.inner .product .mz-17 .money {
   margin-top: 31px;
   width: 206px;
   float: left;
   text-align: center;
 }
-.inner .mz-17 .money p span {
+.inner .product .mz-17 .money p span {
   font-size: 16px;
   color: #666;
 }
@@ -306,6 +322,11 @@ header .container .mybox .store p {
   margin-right: 6px;
   margin-top: 15px;
   cursor: pointer;
+}
+.chooseall .box4 .pane input {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 .chooseall .box4 .all {
   display: inline-block;
